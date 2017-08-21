@@ -20,6 +20,7 @@ public class HairSalon {
     // MODIFIES: this
     // EFFECTS:  books the customer into the requested timeslot
     public void makeNewBooking(Customer c, int bookingTime){
+        bookings.set(bookingTime, c);
         System.out.println("Customer " + c.getName() + " has been booked at " + bookingTime);
     }
 

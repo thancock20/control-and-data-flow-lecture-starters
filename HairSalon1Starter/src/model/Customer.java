@@ -6,6 +6,7 @@ public class Customer {
 
     public Customer(String name){
         System.out.println("Making a new Customer called " + name);
+        this.name = name;
     }
 
     // getters
